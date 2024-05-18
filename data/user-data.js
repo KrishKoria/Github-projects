@@ -7,7 +7,7 @@ export const userData = {
   stackOverflow: "https://stackoverflow.com/users/23176530/krish-koria",
   leetcode: "https://leetcode.com/u/krishkoria2004/",
   resume:
-    "https://drive.google.com/file/d/1uO-yOmTwMF4tFYSfw_i1zaLeQrbPyJeL/view?usp=sharing",
+    "https://drive.google.com/file/d/1BMhxaPQpBfiWq2-Wsj1fh9-fpWjGfjZR/view?usp=sharing",
   skills: [
     "React",
     "Flutter",
