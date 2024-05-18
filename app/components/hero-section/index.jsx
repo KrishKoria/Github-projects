@@ -135,7 +135,9 @@ function HeroSection({ profile }) {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hireable:</span>
-                <span className="text-orange-400">{profile?.hireable}</span>
+                <span className="text-orange-400">
+                  {profile?.hireable.toString()}
+                </span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>

@@ -14,6 +14,8 @@ export const userData = {
     "Kotlin",
     "NodeJS",
     "ExpressJS",
+    "NextJS",
+    "JavaScript",
     "Google Firebase",
     "MySql",
     "MongoDB",
