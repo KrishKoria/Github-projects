@@ -25,7 +25,7 @@ function Footer() {
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href={`${userData.github}/github-portfolio/`}
+              href={`${userData.github}/MySuperAwesomePortfolio/`}
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <IoStar />
@@ -33,7 +33,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href={`${userData.github}/github-portfolio/fork`}
+              href={`${userData.github}/MySuperAwesomePortfolio/fork`}
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <CgGitFork />
