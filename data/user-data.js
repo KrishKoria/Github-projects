@@ -18,7 +18,7 @@ export const userData = {
     "Dart",
     "JavaScript",
     "Sql",
-    "NoSql",
+    "NoSQL",
   ],
   frameworks: [
     "React",
