@@ -8,18 +8,29 @@ export const userData = {
   leetcode: "https://leetcode.com/u/krishkoria2004/",
   resume:
     "https://drive.google.com/file/d/1Aw7bqWS14N-rYtU-9n9mYcC1CnQD4rO9/view?usp=sharing",
-  skills: [
+  languages: [
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "HTML5",
+    "Kotlin",
+    "Dart",
+    "JavaScript",
+    "Sql",
+    "NoSql",
+  ],
+  frameworks: [
     "React",
     "Flutter",
-    "Kotlin",
     "NodeJS",
     "ExpressJS",
     "NextJS",
-    "JavaScript",
-    "MySql",
-    "MongoDB",
+    "TailwindCSS",
+    "MaterialUI",
+    "Google Cloud Platform",
   ],
-  tools : [
+  tools: [
     "VS Code",
     "Android Studio",
     "Postman",
@@ -28,6 +39,16 @@ export const userData = {
     "Heroku",
     "Postman",
     "Docker",
+  ],
+  course_work: [
+    "Data Structures",
+    "Algorithms",
+    "Object Oriented Programming",
+    "Database Management Systems",
+    "Data Analytics",
+    "Operating Systems",
+    "Computer Networks",
+    "Software Engineering",
   ],
   timezone: "5.3",
 };

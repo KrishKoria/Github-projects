@@ -121,12 +121,12 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className=" text-white">languages:</span>
                 <span className="text-gray-400">{`['`}</span>
-                {userData.skills.map((skill, i) => (
+                {userData.languages.map((language, i) => (
                   <>
-                    <span className="text-cyan-400">{skill}</span>
-                    {i !== userData.skills.length - 1 && (
+                    <span className="text-cyan-400">{language}</span>
+                    {i !== userData.languages.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
                   </>
@@ -134,12 +134,38 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">tools:</span>
+                <span className=" text-white">frameworks:</span>
                 <span className="text-gray-400">{`['`}</span>
-                {userData.tools.map((skill, i) => (
+                {userData.frameworks.map((framework, i) => (
                   <>
-                    <span className="text-cyan-400">{skill}</span>
+                    <span className="text-cyan-400">{framework}</span>
+                    {i !== userData.frameworks.length - 1 && (
+                      <span className="text-gray-400">{"', '"}</span>
+                    )}
+                  </>
+                ))}
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">developer_tools:</span>
+                <span className="text-gray-400">{`['`}</span>
+                {userData.tools.map((tool, i) => (
+                  <>
+                    <span className="text-cyan-400">{tool}</span>
                     {i !== userData.tools.length - 1 && (
+                      <span className="text-gray-400">{"', '"}</span>
+                    )}
+                  </>
+                ))}
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
+              <div className="ml-4 lg:ml-8 mr-2">
+                <span className=" text-white">course_work:</span>
+                <span className="text-gray-400">{`['`}</span>
+                {userData.course_work.map((work, i) => (
+                  <>
+                    <span className="text-cyan-400">{work}</span>
+                    {i !== userData.course_work.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
                   </>
