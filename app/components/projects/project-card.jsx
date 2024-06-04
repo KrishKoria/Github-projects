@@ -23,16 +23,6 @@ function ProjectCard({ project }) {
         </div>
 
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-6">
-            <p className="flex items-center gap-2">
-              <FaRegStar className="text-primary-icon" />
-              <span>{project.stargazers_count}</span>
-            </p>
-            <p className="flex items-center gap-2">
-              <FaCodeFork className="text-primary-icon" />
-              <span>{project.forks_count}</span>
-            </p>
-          </div>
           <p className="flex items-center gap-2">
             <span
               style={{ backgroundColor: colors[project.language] }}
