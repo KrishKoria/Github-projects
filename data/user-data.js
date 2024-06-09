@@ -7,7 +7,7 @@ export const userData = {
   stackOverflow: "https://stackoverflow.com/users/23176530/krish-koria",
   leetcode: "https://leetcode.com/u/krishkoria2004/",
   resume:
-    "https://drive.google.com/file/d/11ajTIIghD2dCly0dQlr1Qnu_riWcetBg/view?usp=sharing",
+    "https://drive.google.com/file/d/1xF50kdhu8CxVokAjCxdyGzg10TM2lkVF/view?usp=sharing",
   languages: [
     "C",
     "C++",
@@ -19,6 +19,7 @@ export const userData = {
     "JavaScript",
     "Sql",
     "NoSQL",
+    "R",
   ],
   frameworks: [
     "React",
@@ -31,7 +32,6 @@ export const userData = {
     "Google Cloud Platform",
   ],
   tools: [
-    "VS Code",
     "Android Studio",
     "Postman",
     "Git",
@@ -39,6 +39,9 @@ export const userData = {
     "Heroku",
     "Postman",
     "Docker",
+    "Cloudinary",
+    "Vercel",
+    "AWS",
   ],
   course_work: [
     "Data Structures",
