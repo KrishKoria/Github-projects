@@ -2,7 +2,7 @@ export const userData = {
   githubUser: "KrishKoria",
   devUsername: "KrishKoria",
   github: "https://github.com/KrishKoria",
-  linkedIn: "https://www.linkedin.com/in/krish-koria-0b7497272/",
+  linkedIn: "https://www.linkedin.com/in/krishkoria/",
   twitter: "https://x.com/THEINDIANJEWEL1",
   stackOverflow: "https://stackoverflow.com/users/23176530/krish-koria",
   leetcode: "https://leetcode.com/u/krishkoria2004/",
