@@ -4,6 +4,10 @@ import Image from "next/image";
 import GlowCard from "../helper/glow-card";
 import SectionTitle from "../helper/section-title";
 
+
+export const dynamic = "force-dynamic";
+
+
 function GitStats() {
   return (
     <div id="stats" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
