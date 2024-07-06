@@ -40,6 +40,10 @@ module.exports = {
         hostname: "github-profile-trophy.vercel.app",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "readme-stats-mu-one.vercel.app",
+      },
     ],
     dangerouslyAllowSVG: true,
   },

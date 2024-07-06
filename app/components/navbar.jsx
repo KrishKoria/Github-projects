@@ -17,15 +17,15 @@ function Navbar() {
         </div>
 
         <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
-          <li key={"1"}>
+          <li key={1}>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects">
               <div className="text-sm text-white transition-colors duration-300 hover:text-primary-icon">Projects</div>
             </Link>
           </li>
-          <li key={"2"}>
+          <li key={2}>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#stats"><div className="text-sm text-white transition-colors duration-300 hover:text-primary-icon">Stats</div></Link>
           </li>
-          <li key={"3"}>
+          <li key={3}>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#contributions"><div className="text-sm text-white transition-colors duration-300 hover:text-primary-icon">Contributions</div></Link>
           </li>
         </ul>

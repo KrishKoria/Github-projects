@@ -17,7 +17,7 @@ function GitStats() {
         <div className="md:col-span-2">
           <GlowCard identifier="profile-details">
             <div className="bg-primary-bg">
-            <Image
+            <img
               src={`http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`}
               width={1080}
               height={520}
@@ -30,7 +30,7 @@ function GitStats() {
 
         <>
           <GlowCard identifier="github-stats">
-            <Image
+            <img
               src={`https://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true`}
               width={1080}
               height={520}
@@ -38,7 +38,7 @@ function GitStats() {
             />
           </GlowCard>
           <GlowCard identifier="github-stats-2">
-            <Image
+            <img
               src={`https://github-readme-stats.vercel.app/api?username=${userData.githubUser}&show_icons=true&include_all_commits=true&theme=algolia&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide=stars,commits,prs,issues,contribs`}
               width={1080}
               height={520}

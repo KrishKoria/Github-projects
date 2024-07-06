@@ -15,7 +15,7 @@ function Rank() {
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <>
           <GlowCard identifier="streak">
-            <Image
+            <img
               src={`https://github-readme-streak-stats.herokuapp.com/?user=${userData.githubUser}&theme=algolia&hide_border=true`}
               width={1080}
               height={520}
@@ -24,7 +24,7 @@ function Rank() {
             />
           </GlowCard>
           <GlowCard identifier="productive-time">
-            <Image
+            <img
               src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${userData.githubUser}&theme=algolia&utcOffset=${userData.timezone}`}
               width={1080}
               height={560}
