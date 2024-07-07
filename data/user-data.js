@@ -7,7 +7,7 @@ export const userData = {
   stackOverflow: "https://stackoverflow.com/users/23176530/krish-koria",
   leetcode: "https://leetcode.com/u/krishkoria2004/",
   resume:
-    "https://drive.google.com/file/d/15wV4zg6ypVDdSaRF6jFHIhGx7XvxWlO0/view?usp=sharing",
+    "https://drive.google.com/file/d/1TjjkXB9OZhOfxs-iu1BmijRplEq3P6B1/view?usp=sharing",
   languages: [
     "C",
     "C++",
