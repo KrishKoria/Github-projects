@@ -14,7 +14,7 @@ function HeroSection({ profile }) {
       <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="flex flex-col items-start justify-center rounded-lg p-3 lg:py-5 lg:px-12 bg-primary-bg h-full">
           <div className="flex w-full justify-center">
-            <img
+            <Image
               src={profile.avatar_url}
               width={128}
               height={128}
@@ -125,7 +125,9 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`['`}</span>
                 {userData.languages.map((language, i) => (
                   <>
-                    <span key={i} className="text-cyan-400">{language}</span>
+                    <span key={i} className="text-cyan-400">
+                      {language}
+                    </span>
                     {i !== userData.languages.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
@@ -138,7 +140,9 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`['`}</span>
                 {userData.frameworks.map((framework, i) => (
                   <>
-                    <span key={i} className="text-cyan-400">{framework}</span>
+                    <span key={i} className="text-cyan-400">
+                      {framework}
+                    </span>
                     {i !== userData.frameworks.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
@@ -151,7 +155,9 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`['`}</span>
                 {userData.tools.map((tool, i) => (
                   <>
-                    <span key={i} className="text-cyan-400">{tool}</span>
+                    <span key={i} className="text-cyan-400">
+                      {tool}
+                    </span>
                     {i !== userData.tools.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
@@ -164,7 +170,9 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`['`}</span>
                 {userData.course_work.map((work, i) => (
                   <>
-                    <span key={i} className="text-cyan-400">{work}</span>
+                    <span key={i} className="text-cyan-400">
+                      {work}
+                    </span>
                     {i !== userData.course_work.length - 1 && (
                       <span className="text-gray-400">{"', '"}</span>
                     )}
