@@ -1,18 +1,3 @@
-# GitHub Portfolio
-
-### If you're struggling to create a portfolio website that looks professional, you don't have to search any further. You can use this GitHub Portfolio template to create your very own personalized portfolio using just your GitHub username! The website is designed to be user-friendly and easily customizable, which makes it an ideal solution for developers and freelancers alike.
-
----
-
-# Demo :movie_camera:
-
-![httpsgithub abusaid me](https://github.com/said7388/github-portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
-
-
-## View live preview [here](https://my-github-portfolio.netlify.app/)
-
----
-
 # Installation :arrow_down:
 
 ### You will need to download Git and Node to run this project
@@ -63,64 +48,81 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # Usage :joystick:
 
-If you want to use Google Analytics, Please create a new `.env` file from `.env.example` file and provide the value.
-
-Eg:
-
-```env
-NEXT_PUBLIC_GTM = ""
-```
-
-### Now, you have to customize user data in the `data` [folder](https://github.com/said7388/developer-portfolio/tree/main/data).
+### Now, you have to customize user data in the `data` [folder](https://github.com/KrishKoria/MySuperAwesomePortfolio/tree/main/data).
 
 Eg:
 
 ```javascript
 export const userData = {
-  githubUser: "said7388",
-  devUsername: "said7388",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
+  githubUser: "KrishKoria",
+  devUsername: "KrishKoria",
+  github: "https://github.com/KrishKoria",
+  linkedIn: "https://www.linkedin.com/in/krishkoria/",
+  twitter: "https://x.com/THEINDIANJEWEL1",
+  stackOverflow: "https://stackoverflow.com/users/23176530/krish-koria",
+  leetcode: "https://leetcode.com/u/krishkoria2004/",
   resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
-  skills: [
+    "https://drive.google.com/file/d/1WqwFGzlR7VJnWKshY3uvg8W_ReGGcIW5/view?usp=sharing",
+  languages: [
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "HTML5",
+    "Kotlin",
+    "Dart",
+    "JavaScript",
+    "TypeScript",
+    "Sql",
+    "R",
+  ],
+  frameworks: [
     "React",
+    "Flutter",
+    "NodeJS",
+    "ExpressJS",
     "NextJS",
-    "Redux",
-    "Express",
-    "NestJS",
-    "MySql",
-    "MongoDB",
-    "Postgres",
+    "TailwindCSS",
+    "MaterialUI",
+    "Google Cloud Platform",
+    "NoSQL",
+  ],
+  tools: [
+    "Android Studio",
+    "Postman",
+    "Git",
+    "GitHub",
+    "Heroku",
+    "Postman",
     "Docker",
+    "Cloudinary",
+    "Vercel",
     "AWS",
   ],
-  timezone: "+6",
+  course_work: [
+    "Data Structures",
+    "Algorithms",
+    "Object Oriented Programming",
+    "Database Management Systems",
+    "Data Analytics",
+    "Operating Systems",
+    "Computer Networks",
+    "Software Engineering",
+  ],
+  timezone: "5.3",
 };
 ```
 
 ---
 
----
-
 # Packages Used :package:
 
-|   Used Package List   |
-| :-------------------: |
-|         next          |
-|  @next/third-parties  |
-|         axios         |
-|      react-icons      |
-| react-github-calendar |
-|         sass          |
-|      tailwindcss      |
+|  Used Package List  |
+| :-----------------: |
+|        next         |
+| @next/third-parties |
+|     react-icons     |
+|        sass         |
+|     tailwindcss     |
 
 ---
-
-## Disclaimer
-
-In this repository, I have used some open source APIs. All credits go to the owners of those repositories.
